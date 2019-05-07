@@ -21,6 +21,15 @@ label{
   font-size: 20px;
   margin-top: 10px;
 }
-img{
-  margin-left: -2px;
+#imagem{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  max-height: 350px;
+  width: 100%;
+}
+
+#map{
+  width: 100%;
+  height: 530px;
 }
