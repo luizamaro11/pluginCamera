@@ -8,11 +8,14 @@
       <script src="components/loader.js"></script>
       <script src="components/jquery-3.3.1.min.js"></script>
       <script src="components/funcao.js"></script>
+      <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
 
 
       <link rel="stylesheet" href="components/loader.css">
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <link rel="stylesheet" href="css/style.css">
+      <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
+
 
 </head>
 <body>
@@ -24,24 +27,29 @@
     </div>
     <div class="row">
       <div class="col-xs-12">
-        <button class="btn form-control" id="camera" onclick="camera1"> Câmera </button>
+        <button class="btn form-control" id="camera"> Câmera </button>
       </div>
     </div>
     <div class="row">
       <div class="col-xs-12">
-        <img src="imagens/moldura.png">
+        <img id="imagem">
       </div>
     </div>
     <div class="row">
       <div class="col-xs-12">
         <label> latitude: </label>
-        <input type="text" id="lat" class="form-control" onclick="camera1">
+        <input type="text" id="lat" class="form-control">
       </div>
     </div>
     <div class="row">
       <div class="col-xs-12">
         <label> longitude: </label>
-        <input type="text" id="long" class="form-control" onclick="camera1">
+        <input type="text" id="long" class="form-control">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div id="map"></div>
       </div>
     </div>
   </div>
