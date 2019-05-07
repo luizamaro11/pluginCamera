@@ -16,3 +16,11 @@ h1{
 body{
   background-color: rgba(142, 186, 252, 0.418);
 }
+label{
+  color: black;
+  font-size: 20px;
+  margin-top: 10px;
+}
+img{
+  margin-left: -2px;
+}
